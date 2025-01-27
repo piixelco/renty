@@ -1,0 +1,392 @@
+/* Global*/
+.title{
+	color:white;
+}
+.page-header h1{
+	color:#F26529!important;
+}
+.archive .title{
+	Color:#F26529;
+}
+.product-template-default .title ,h2,.widget,.widget-title{
+	Color:#F26529!important;
+}
+.woocommerce-loop-product__title{
+	white-space: nowrap;
+	 overflow: hidden;
+	
+}
+.product-template-default h1{
+	color:black!important;
+}
+/* Footer*/
+footer.main-footer{
+	background-color: #005558;
+}
+
+.copyrights{
+		background-color: #005558;
+	
+}
+/* Footer*/
+
+
+.page-header h1{
+	color:white;
+	font-size:30px
+}
+.wpv-grid{
+	
+	color:white ;
+}
+.icons-servicos{
+	display:grid;
+	grid-template-columns: repeat(4, 1fr);
+	
+
+}
+/* Global*/
+
+.icons-servicos img {  
+    height: 40px; 
+}
+/* Barra de Contato sobre o footer desktop*/
+@media screen and (min-width: 900px){
+	.coluna-Footer-whats{
+		position:relative;
+		top:20px!important;
+	}
+	.texto-fooder{
+		position:relative;
+		left:100px;
+	}
+	.texto-footer-bar-ti{
+		position:relative;
+		top:-25px!important;
+			
+	}
+	.icon-whats{
+		position:relative;
+		top:-5px;
+		left:110px;
+		width:30%
+	}
+	.texto-titulo{
+		position:relative;
+		font-size:10px;
+		font-weight:bold;
+		top:15px;
+		
+		}}
+
+		@media screen and (max-width: 480px){
+			.coluna-Footer-whats{
+				position:relative;
+				top:100px!important;
+			}
+			.texto-fooder{
+				position:relative;
+				left:45px;
+				top:-15px;
+			}
+			.texto-footer-bar-ti{
+				position:relative;
+				top:-110px!important;
+				right:-110px;
+					
+			}
+			.icon-whats{
+				position:relative;
+				top:-2px;
+				width:10%!important;
+				left:60px;
+			}
+			.texto-titulo{
+				position:relative;
+				font-size:10px;
+				font-weight:bold;
+				top:15px;
+				
+				}
+				}
+			/* Barra contato sobre o footer mobile*/
+			
+				/* Barra de Contato de Pagina desktop */
+			@media screen and (min-width: 900px){
+				
+			.coluna-contato{
+				position:relative;
+				width:85%;
+				left:70px
+			}
+			
+			.texto-secundario-contato{
+				position:relative;
+				left:50px;
+			}
+			
+			
+			.icon-whats-contato{
+				position:relative;
+				top:8px;
+				left:260px;
+				
+			}
+			
+			.texto-principal-contato{
+				position:relative;
+				top:20px;
+				font-size:10px
+			}
+			.contato-mid{
+				position:relative;
+				top:-15px;
+				left:100px;
+				
+			}
+			
+			}
+
+			@media screen and (max-width: 480px){
+				h1{
+					font-size:20px!important;
+				}
+				h3,h4,h5,h6{
+					font-size:25px!important;
+				}
+			.coluna-contato{
+				position:relative;
+				top:10px;
+				height:200px;
+				
+			}
+			
+			.texto-secundario-contato{
+				position:relative;
+				top:0px;
+				font-size:15px!important;
+				left:75px;
+			}
+			
+			
+			.icon-whats-contato{
+				position:relative;
+				top:px;
+				left:80px;
+				
+				
+			}
+			
+			.texto-principal-contato{
+				position:relative;
+				top:20px;
+				font-size:10px
+			}
+			.contato-mid{
+				position:relative;
+				top:-90px;
+				left:130px;
+			}
+			
+			}
+			@media screen and (max-width: 480px){
+				/*Centralando div em atendimento*/
+				.contole-div-atendimento{
+					position:relative;
+					text-align:center
+				}
+				.texto-orcamento{
+					font-size:20px!important;
+				}
+				.atendimento-img{
+					position:relative;
+					left:140px;
+				}
+				/*Centralando div em atendimento*/
+				/*Configuração Botão form atendimento*/
+				.enviar-mensagem-form{
+					position:relative;
+					left:100px;
+					top:-10px;	
+				
+				/*Configuração Botão form atendimento*/
+					/*Texto  principal pagina sobre*/
+				}
+				.texto-sobre{
+					display:none;
+				}
+				.texto-sobre-mobile{
+					text-align:center;
+				}
+					/*Texto  principal pagina sobre*/
+				}
+				/*Texto  principal pagina sobre*/
+				@media screen and (min-width: 900px){
+				.texto-sobre-mobile{
+					display:none;
+				}
+				}
+				/*Texto  principal pagina sobre*/
+				
+				@media screen and (min-width: 500px) and (max-width: 890px){
+					.coluna-principal-home{
+						display:none;
+					}
+						.coluna-locacao-home{
+					border-radius:30px;
+					position:relative;
+					height: 230px;
+					top: -200px;
+					z-index:10;			
+				}
+				.coluna-revenda-home{
+					border-radius:30px;
+					position:relative;
+					height: 230px;
+					top: -160px;
+					z-index:10;
+					
+					
+				}
+				.coluna-servico-home{
+					border-radius:30px;
+					position:relative;
+					height: 230px;
+					top: -125px;	
+					z-index:10;
+				}
+				
+					.centralizacao-icons{
+					text-align:center!important;
+				}
+				.alignnone{
+					position:relative;
+					left:320px;
+					
+				}
+					.coluna-principal-mobile{
+						position:relative;
+						top:-300px;
+					}
+						.texto-bar-footer{
+						position:relative;
+							left:35px;
+							top:40px;
+					}
+					.whatsapp-icon{
+						position:relative;
+						top:-40px!important;
+						left:360px;
+						width:35%;
+					}
+					.conteiner-contato-footer{
+						position:relative;
+						top:-120px;
+						left:450px;
+					}
+					.texto-footer-home{
+						position:relative;
+						top:5px;
+					}
+					.contato-footer-home{
+						position:relative;
+						top:-8px;
+					}
+					.footer-colunar-home{
+						position:relative;
+						top:90px;
+					}
+					.texto-barra-1{
+						position:relative;
+						top:-10px;
+						text-align:center;
+						font-size:15px!important;
+					}
+					.botao-online{
+						position:relative;
+						top:-20px!important;
+					}
+					.coluna-contato{
+					position:relative;
+					width:100%;
+				}
+				
+				.texto-secundario-contato{
+					position:relative;
+					left:20px;
+					top:70px;
+				}
+				
+				
+				.icon-whats-contato{
+					position:relative;
+					left:450px;
+					
+				}
+				
+				.texto-principal-contato{
+					position:relative;
+					top:20px;
+					font-size:10px
+				}
+				.contato-mid{
+					position:relative;
+					top:-93px;
+					left:500px;
+					
+				}
+					.coluna-Footer-whats{
+					position:relative;
+					top:100px!important;
+				}
+				.texto-fooder{
+					position:relative;
+					left:45px;
+					top:30px;
+				}
+				.texto-footer-bar-ti{
+					position:relative;
+					top:-130px!important;
+					right:-510px;
+					
+						
+				}
+				.icon-whats{
+					position:relative;
+					top:-40px;
+					width:7%!important;
+					left:430px;
+				}
+				.texto-titulo{
+					position:relative;
+					font-size:10px;
+					font-weight:bold;
+					top:15px;
+					
+					}
+					.enviar-mensagem-form{
+					position:relative;
+					left:300px;
+					top:-10px;	
+				}
+					.contole-div-atendimento{
+					position:relative;
+					text-align:center
+				}
+				.texto-orcamento{
+					font-size:20px!important;
+				}
+				.atendimento-img{
+					position:relative;
+					left:350px;
+				}
+					.texto-sobre{
+					display:none;
+				}
+				}
+				
+				/*Configuração Expand box*/
+				.services-inside{
+					min-height:155px;
+				}
+				/*Configuração Expand box*/

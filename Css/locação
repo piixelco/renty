@@ -1,0 +1,51 @@
+
+
+
+/* Locação online*/
+@media screen and (min-width: 900px) {
+	.botao-venda-online{
+		position:relative;
+		width:80%;
+		left:100px;
+	}
+	.botao-online{
+		position:relative;
+		top:-10px!important;
+	}
+	.texto-barra{
+		position:relative;
+		top:-15px;
+		
+	}
+	.texto-final-barra{
+		position:relative;
+		top:10px;
+	}
+	.texto-barra-1{
+		position:relative;
+		top:-10px;
+	}
+}
+@media screen and (max-width: 480px){
+	.texto-barra-1{
+		position:relative;
+		top:-10px;
+		text-align:center;
+		font-size:15px!important;
+	}
+	.botao-online{
+		position:relative;
+		top:-20px!important;
+	}
+	
+}
+
+@media screen and (max-width: 480px){
+    .centralizacao-icons{
+        text-align:center!important;
+    }
+    .alignnone{
+        position:relative;
+        left:120px;
+        
+    }}

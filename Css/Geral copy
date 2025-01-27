@@ -1,0 +1,9 @@
+
+
+
+
+/*Configuração Expand box*/
+.services-inside{
+	min-height:155px;
+}
+/*Configuração Expand box*/

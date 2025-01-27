@@ -1,0 +1,150 @@
+
+@media screen and (min-width: 900px) {
+	.servicos-home{
+	position:relative;
+	top:-150px;
+}
+	.coluna-verde-mobile{
+		display:none;
+	}
+	.coluna-principal-mobile{
+		display:none;
+	}
+	.coluna-locacao-home{
+	border-radius:30px;
+	position:relative;
+	left: -20px;
+	height: 230px;
+	top: -110px;
+		
+}
+.coluna-revenda-home{
+	border-radius:30px;
+	position:relative;
+	left: -10px;
+	height: 230px;
+	top: -110px;
+		
+}
+.coluna-servico-home{
+	border-radius:30px;
+	position:relative;
+	height: 230px;
+	top: -110px;
+	
+}
+	.botao-revenda{
+		position:relative;
+		top:28px;		
+	}	
+.coluna-principal-home {
+		background-position:-50px;
+		position:relative;
+        top: -370px;
+		margin-top: 90px;		
+}
+.texto-imagem-um{
+		position:relative;
+		left: 100px;
+	}
+	.texto-imagem-dois{
+		position:relative;
+		right: 100px;
+	}
+/* Footer contato */	
+	.texto-bar-footer{
+		position:relative;
+		left:-90px;
+	}
+	.whatsapp-icon{
+		position:relative;
+		top:3px!important;
+		left:90px;
+		width:35%;
+	}
+	.conteiner-contato-footer{
+		position:relative;
+	}
+	.texto-footer-home{
+		position:relative;
+		top:5px;
+	}
+	.contato-footer-home{
+		position:relative;
+		top:-8px;
+	}
+/* Footer contato */	
+}
+	
+@media screen and (max-width: 480px) {
+	.coluna-principal-home{
+		display:none;
+	}
+	.coluna-locacao-home,.coluna-revenda-home,.coluna-servico-home{
+		position:relative;
+		top:-40px;
+	}
+	.coluna-principal-mobile{
+		position:relative;
+		top:-300px;
+	}
+    /* Footer contato */	
+		.texto-bar-footer{
+		position:relative;
+			left:35px;
+	}
+	.whatsapp-icon{
+		position:relative;
+		top:-18px!important;
+		left:40px;
+		width:35%;
+	}
+	.conteiner-contato-footer{
+		position:relative;
+		top:-100px;
+		left:120px;
+	}
+	.texto-footer-home{
+		position:relative;
+		top:5px;
+	}
+	.contato-footer-home{
+		position:relative;
+		top:-8px;
+	}
+	.footer-colunar-home{
+		position:relative;
+		top:90px;
+	}
+	.icons-servicos{
+		position:relative;
+		left:20px;
+	}
+    /* Footer contato */	
+		.coluna-locacao-home{
+	border-radius:30px;
+	position:relative;
+	height: 230px;
+	top: -200px;
+	z-index:10;			
+}
+.coluna-revenda-home{
+	border-radius:30px;
+	position:relative;
+	height: 230px;
+	top: -160px;
+	z-index:10;
+	
+	
+}
+.coluna-servico-home{
+	border-radius:30px;
+	position:relative;
+	height: 230px;
+	top: -125px;	
+	z-index:10;
+}
+
+
+
+}
